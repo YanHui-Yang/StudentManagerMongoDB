@@ -1,0 +1,69 @@
+{
+  "homeInfo": {
+    "title": "主页",
+    "href": "page?forward=welcome"
+  },
+  "logoInfo": {
+    "title": "学生管理系统",
+    "image": "/static/images/logo.png",
+    "href": "page?forward=index"
+  },
+  "menuInfo": [
+    {
+      "title": "常规管理",
+      "icon": "fa fa-address-book",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "主页",
+          "href": "page?forward=welcome",
+          "icon": "fa fa-home",
+          "target": "_self"
+        },
+        {
+          "title": "学生管理",
+          "href": "page?forward=student",
+          "icon": "fa fa-user",
+          "target": "_self"
+        },
+        {
+          "title": "班级管理",
+          "href": "page?forward=clazz",
+          "icon": "fa fa-users",
+          "target": "_self"
+        },
+        {
+          "title": "专业管理",
+          "href": "page?forward=major",
+          "icon": "fa fa-users",
+          "target": "_self"
+        },
+        {
+          "title": "学院管理",
+          "href": "page?forward=dept",
+          "icon": "fa fa-flag-checkered",
+          "target": "_self"
+        },
+        {
+          "title": "成绩管理",
+          "href": "page?forward=score",
+          "icon": "fa fa-file-text",
+          "target": "_self"
+        },
+        {
+          "title": "课程管理",
+          "href": "page?forward=course",
+          "icon": "fa fa-inbox",
+          "target": "_self"
+        },
+        {
+          "title": "用户管理",
+          "href": "page?forward=user",
+          "icon": "fa fa-user-secret",
+          "target": "_self"
+        }
+      ]
+    }
+  ]
+}
