@@ -8,7 +8,7 @@ public class MongoUtil {
 
     private static final String HOST = "127.0.0.1";
     private static final Integer PORT = 27017;
-    private static final String DB_NAME = "student_manage";
+    private static final String DB_NAME = "student_manager";
     private static MongoClient mongo;
     public static DB db;
 

@@ -11,3 +11,11 @@ use student_manager
 
 db.user.insert({"username": "admin", "password": "123456"})
 ```
+
+
+
+我也写了Spring MVC版和Spring Boot版的，详情：
+
+Spring MVC：https://github.com/YanHui-Yang/ssm_student_manager_mongodb
+
+Spring Boot：https://github.com/YanHui-Yang/book_manger_mongodb
